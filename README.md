@@ -30,6 +30,11 @@ As shown, the rejection module effectively removes incorrect matchings and redun
 
 ![](visualation/yellowa_reject_ablation-2_03.png)
 
+## Visualization results of the compared methods and our methods
+
+### Visualization results On The Yama Dataset
+
+### Visualization results On The YellowR1 Dataset
 
 # Installation
 ## Make Data
