@@ -4,5 +4,8 @@ This github project is the code for the paper 《Cross-Rejective Open-Set SAR Im
 # visualization
 ![The figure shows the distribution results of matched point pairs in yama dataset with the rejection module removed but no post-processing, the rejection module removed and RANSAC post-processing, and the rejection module retained without post-processing](visualation/yama_reject_ablation.png)
 
+The figure shows the distribution results of matched point pairs in <span style="color: red;">Yama</span> dataset with the rejection module removed but no post-processing, the rejection module removed and RANSAC post-processing, and the rejection module retained without post-processing.
 
 ![The figure shows the distribution results of matched point pairs in yellow R1 dataset with the rejection module removed but no post-processing, the rejection module removed and RANSAC post-processing, and the rejection module retained without post-processing](visualation/yellowa_reject_ablation.png)
+
+The figure shows the distribution results of matched point pairs in <span style="color: red;">yellow R1</span> with the rejection module removed but no post-processing, the rejection module removed and RANSAC post-processing, and the rejection module retained without post-processing
