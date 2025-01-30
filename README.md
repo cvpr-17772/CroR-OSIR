@@ -34,7 +34,55 @@ As shown, the rejection module effectively removes incorrect matchings and redun
 
 ### Visualization results On The Yama Dataset
 
+#### SIFT
+
+![](visualation/CBchartYama_4_01.png)
+
+#### SuperPoint
+
+![](visualation/CBchartYama_4_02.png)
+
+#### DALF
+
+![](visualation/CBchartYama_4_03.png)
+
+#### XFeat
+
+![](visualation/CBchartYama_4_04.png)
+
+#### DBMDF
+
+![](visualation/CBchartYama_4_05.png)
+
+#### CroR-OSIR
+
+![](visualation/CBchartYama_4_06.png)
+
 ### Visualization results On The YellowR1 Dataset
+
+#### SIFT
+
+![](visualation/CBchartYellowR1_4_01.png)
+
+#### SuperPoint
+
+![](visualation/CBchartYellowR1_4_02.png)
+
+#### DALF
+
+![](visualation/CBchartYellowR1_4_03.png)
+
+#### XFeat
+
+![](visualation/CBchartYellowR1_4_04.png)
+
+#### DBMDF
+
+![](visualation/CBchartYellowR1_4_05.png)
+
+#### CroR-OSIR
+
+![](visualation/CBchartYellowR1_4_06.png)
 
 # Installation
 ## Make Data
