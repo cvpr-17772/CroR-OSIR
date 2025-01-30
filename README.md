@@ -84,9 +84,9 @@ As shown, the rejection module effectively removes incorrect matchings and redun
 
 ![](visualation/CBchartYellowR1_4_06.png)
 
-# Installation
+<!-- # Installation
 ## Make Data
 ## SupCon Pretraining
 ## CroR-OSR training and the fintune of SupCon module
 
-# Test accurancy
+# Test accurancy -->
