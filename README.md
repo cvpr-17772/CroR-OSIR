@@ -84,6 +84,16 @@ As shown, the rejection module effectively removes incorrect matchings and redun
 
 ![](visualation/CBchartYellowR1_4_06.png)
 
+## Visualization results on the HPatches-sequences-release
+
+### DALF
+![](visualation/optical_DAlF.png)
+### XFeat
+![](visualation/optical_XFeat.png)
+### DBMDF
+![](visualation/optical_DBMDF.pnf)
+### CroR-OSIR
+![](visualation/optical_CroR-OSIR.png)
 <!-- # Installation
 ## Make Data
 ## SupCon Pretraining
