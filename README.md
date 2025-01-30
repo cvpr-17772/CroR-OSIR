@@ -91,7 +91,7 @@ As shown, the rejection module effectively removes incorrect matchings and redun
 ### XFeat
 ![](visualation/optical_XFeat.png)
 ### DBMDF
-![](visualation/optical_DBMDF.pnf)
+![](visualation/optical_DBMDF.png)
 ### CroR-OSIR
 ![](visualation/optical_CroR-OSIR.png)
 <!-- # Installation
