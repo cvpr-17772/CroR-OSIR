@@ -4,7 +4,7 @@ This GitHub project is for the rebuttal of CVPR-17772. Due to space limitations,
 # Rejection Mechanism
 
 
-We conducted experiments on the <span style="font-size:1.5em; font-weight:bold;">**Yama dataset**</span> using the SIFT algorithm to detect keypoints. <span style="font-size:1.5em; font-weight:bold;">**1223**</span> keypoints were detected in the reference image and <span style="font-size:1.5em; font-weight:bold;">**1374**</span> in the sensed image. The encoder was pre-trained for <span style="font-size:1.5em; font-weight:bold;">**50 epochs**</span>, followed by training the <span style="font-size:1.5em; font-weight:bold;">**R-domain**</span> and <span style="font-size:1.5em; font-weight:bold;">**S-domain**</span> classification heads for an additional <span style="font-size:1.5em; font-weight:bold;">**50 epochs**</span>. We removed the reject module, with <span style="font-size:1.5em; font-weight:bold;">**cross-domain estimation every 5 epochs**</span>. The following registration results were based on matches approved by both branches. We present the results from the <span style="font-size:1.5em; font-weight:bold;">**10th cross-domain estimation**</span>. The detailed experimental results are presented in the table below.
+We conducted experiments on the **Yama dataset** and **YellowR1 dataset** using the SIFT algorithm to detect keypoints. **1223** keypoints were detected in the reference image and **1374** in the sensed image. On the **YellowR1** dataset, we detected **1339** keypoints in the reference image and **1201** keypoints in the sensed image. The encoder was pre-trained for **50 epochs**, followed by training the **R-domain** and **S-domain** classification heads for an additional **50 epochs**. We removed the reject module, with **cross-domain estimation every 5 epochs**. The following registration results were based on matches approved by both branches. We present the results from the **10th cross-domain estimation**. The detailed experimental results are presented in the table below.
 
 ![](tables/reject_module.png)
 
@@ -32,7 +32,7 @@ Then, we compared this result with the one using only the reject module (with a 
 As shown above, the reject module effectively removes incorrect matchings and redundant points, achieving better registration accuracy without post-processing.
 ### Visualization On The YellowR1 Dataset
 
-On the **YellowR1** dataset, we detected **1339** keypoints in the reference image and **1201** keypoints in the sensed image using the **SIFT** algorithm. Other settings were the same as those for the **Yama** dataset. First, we present the results without the reject module and without post-processing.
+First, we present the results without the reject module and without post-processing.
 
 #### The visual results without the reject module and without post-processing.
 
