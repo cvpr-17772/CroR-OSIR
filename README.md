@@ -4,44 +4,44 @@ This GitHub project is for the rebuttal of CVPR-17772. Due to space limitations,
 # Rejection Mechanism
 ### Visualization On The Yama Dataset
 
-We conducted experiments on the <span style="font-size:1.5em; font-weight:bold;">**Yama dataset**</span> using the SIFT algorithm to detect keypoints. <span style="font-size:1.5em; font-weight:bold;">**1223**</span> keypoints were detected in the reference image and <span style="font-size:1.5em; font-weight:bold;">**1374**</span> in the sensed image. The encoder was pre-trained for <span style="font-size:1.5em; font-weight:bold;">**50 epochs**</span>, followed by training the <span style="font-size:1.5em; font-weight:bold;">**R-domain**</span> and <span style="font-size:1.5em; font-weight:bold;">**S-domain**</span> classification heads for an additional <span style="font-size:1.5em; font-weight:bold;">**50 epochs**</span>. We removed the rejection module, with <span style="font-size:1.5em; font-weight:bold;">**cross-domain estimation every 5 epochs**</span>. The following registration results were based on matches approved by both branches. We present the results from the <span style="font-size:1.5em; font-weight:bold;">**10th cross-domain estimation**</span>.
+We conducted experiments on the <span style="font-size:1.5em; font-weight:bold;">**Yama dataset**</span> using the SIFT algorithm to detect keypoints. <span style="font-size:1.5em; font-weight:bold;">**1223**</span> keypoints were detected in the reference image and <span style="font-size:1.5em; font-weight:bold;">**1374**</span> in the sensed image. The encoder was pre-trained for <span style="font-size:1.5em; font-weight:bold;">**50 epochs**</span>, followed by training the <span style="font-size:1.5em; font-weight:bold;">**R-domain**</span> and <span style="font-size:1.5em; font-weight:bold;">**S-domain**</span> classification heads for an additional <span style="font-size:1.5em; font-weight:bold;">**50 epochs**</span>. We removed the reject module, with <span style="font-size:1.5em; font-weight:bold;">**cross-domain estimation every 5 epochs**</span>. The following registration results were based on matches approved by both branches. We present the results from the <span style="font-size:1.5em; font-weight:bold;">**10th cross-domain estimation**</span>.
 
-#### The visual results without the rejection module and without post-processing.
+#### The visual results without the reject module and without post-processing.
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_without_post_and_reject.png)
 
-As shown in the above figure, the results without the rejection module and any post-processing contain a large number of **redundant point pairs**, which lead to a decrease in matching accuracy. 
+As shown in the above figure, the results without the reject module and any post-processing contain a large number of **redundant point pairs**, which lead to a decrease in matching accuracy. 
 
 Then, we performed **post-processing** to remove erroneous match pairs and visualized the results after eliminating the incorrect matches.
 
-#### The visual results without the rejection module and with post-processing.
+#### The visual results without the reject module and with post-processing.
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_withpost_without_reject.png)
 After applying **RANSAC** for post-processing, incorrect and some redundant point pairs are removed. However, remaining redundant points with insufficient matching quality limit further improvements in registration accuracy.
 
-Then, we compared this result with the one using only the rejection module (with a rejection threshold of **0.95**). The results using only the rejection module are shown in the figure below.
+Then, we compared this result with the one using only the reject module (with a rejection threshold of **0.95**). The results using only the rejection module are shown in the figure below.
 
-#### The visual results with the rejection module and without post-processing.
+#### The visual results with the reject module and without post-processing.
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_withreject_withoutpost.png)
 
-As shown above, the rejection module effectively removes incorrect matchings and redundant points, achieving better registration accuracy without post-processing.
+As shown above, the reject module effectively removes incorrect matchings and redundant points, achieving better registration accuracy without post-processing.
 ### Visualization On The YellowR1 Dataset
 
-On the **YellowR1** dataset, we detected **1339** keypoints in the reference image and **1201** keypoints in the target image using the **SIFT** algorithm. Other settings were the same as those for the **Yama** dataset. First, we present the results without the rejection module and without post-processing.
+On the **YellowR1** dataset, we detected **1339** keypoints in the reference image and **1201** keypoints in the sensed image using the **SIFT** algorithm. Other settings were the same as those for the **Yama** dataset. First, we present the results without the reject module and without post-processing.
 
-#### The visual results without the rejection module and without post-processing.
+#### The visual results without the reject module and without post-processing.
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20YellowR1%20Dataset/yellowa_reject_ablation_withoutreject_withoutpost.png)
 
 Then, we performed post-processing and present the visualized results below.
 
-#### The visual results without the rejection module and with post-processing.
+#### The visual results without the reject module and with post-processing.
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20YellowR1%20Dataset/yellowa_reject_ablation_withoutreject_withpost.png)
 
-Then, we present the results using only the rejection module (rejection threshold = **0.95**).
-#### The visual results with the rejection module and without post-processing.
+Then, we present the results using only the reject module (rejection threshold = **0.95**).
+#### The visual results with the reject module and without post-processing.
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20YellowR1%20Dataset/yellowa_reject_ablation_withreject_withoutpost.png)
 
