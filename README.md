@@ -1,9 +1,7 @@
 # CroR-OSIR: Cross-Rejective Open-Set SAR Image Registration
 # Introduction
-This github project is the code for the paper 《Cross-Rejective Open-Set SAR Image Registration》, which uses Open Set recognition to solve the problem of redundant point pairs in image registration, so we'll show you a visualization and update the code to keep the project up to date！
-# Visualization Results
-## Visualization of the effect of the rejection module
-
+This GitHub project is for the rebuttal of CVPR-17772. Due to space limitations, we have uploaded some additional experimental visualization results here. Thank you for your careful review!
+# Rejection mechanism
 ### Visualization On The Yama Dataset
 #### The visual results without the rejection module and without post-processing.
 
@@ -31,7 +29,7 @@ As shown, the rejection module effectively removes incorrect matchings and redun
 
 ![](visualation/yellowa_reject_ablation-2_03.png)
 
-## Visualization results of the compared methods and our methods
+# Comparison Visualizations
 
 ### Visualization results On The Yama Dataset
 
@@ -85,7 +83,7 @@ As shown, the rejection module effectively removes incorrect matchings and redun
 
 ![](visualation/CBchartYellowR1_4_06.png)
 
-## Visualization results on the HPatches-sequences-release
+# Comparisons on Other Benchmarks
 
 ### DALF
 ![](visualation/optical_DAlF.png)
