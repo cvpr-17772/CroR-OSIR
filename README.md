@@ -40,23 +40,23 @@ As shown, the rejection module effectively removes incorrect matchings and redun
 
 #### SuperPoint
 
-![](visualation/CBchartYama_4_02.png)
+![](Comparison%20Visualizations/Visualization%20results%20On%20The%20Yama%20Dataset/CBchartYama_SuperPoint.png)
 
 #### DALF
 
-![](visualation/CBchartYama_4_03.png)
+![](Comparison%20Visualizations/Visualization%20results%20On%20The%20Yama%20Dataset/CBchartYama_DALF.png)
 
 #### XFeat
 
-![](visualation/CBchartYama_4_04.png)
+![](Comparison%20Visualizations/Visualization%20results%20On%20The%20Yama%20Dataset/CBchartYama_XFeat.png)
 
 #### DBMDF
 
-![](visualation/CBchartYama_4_05.png)
+![](Comparison%20Visualizations/Visualization%20results%20On%20The%20Yama%20Dataset/CBchartYama_DBMDF.png)
 
 #### CroR-OSIR
 
-![](visualation/CBchartYama_4_06.png)
+![](Comparison%20Visualizations/Visualization%20results%20On%20The%20Yama%20Dataset/CBchartYama_CroR-OSIR.png)
 
 ### Visualization results On The YellowR1 Dataset
 
