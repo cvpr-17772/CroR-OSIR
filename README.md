@@ -10,24 +10,25 @@ This GitHub project is for the rebuttal of CVPR-17772. Due to space limitations,
 As shown in the figure, the results without the rejection module and any post-processing contain incorrect matchings and a large number of redundant point pairs, which lead to a decrease in matching accuracy.
 #### The visual results without the rejection module and with post-processing.
 
-![](visualation/yama_reject_ablation-2_02.png)
+![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_withpost_without_reject.png)
 After applying RANSAC for post-processing, incorrect and some redundant point pairs are removed. However, remaining redundant points with insufficient matching quality limit further improvements in registration accuracy.
 #### The visual results with the rejection module and without post-processing.
 
-![](visualation/yama_reject_ablation-2_03.png)
+![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_withreject_withoutpost.png)
+
 As shown, the rejection module effectively removes incorrect matchings and redundant points, achieving better registration accuracy without post-processing.
 ### Visualization On The YellowR1 Dataset
 #### The visual results without the rejection module and without post-processing.
 
-![](visualation/yellowa_reject_ablation-2_01.png)
+![](Rejection%20Mechanism/Visualization%20On%20The%20YellowR1%20Dataset/yellowa_reject_ablation_withoutreject_withoutpost.png)
 
 #### The visual results without the rejection module and with post-processing.
 
-![](visualation/yellowa_reject_ablation-2_02.png)
+![](Rejection%20Mechanism/Visualization%20On%20The%20YellowR1%20Dataset/yellowa_reject_ablation_withoutreject_withpost.png)
 
 #### The visual results with the rejection module and without post-processing.
 
-![](visualation/yellowa_reject_ablation-2_03.png)
+![](Rejection%20Mechanism/Visualization%20On%20The%20YellowR1%20Dataset/yellowa_reject_ablation_withreject_withoutpost.png)
 
 # Comparison Visualizations
 
