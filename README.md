@@ -6,7 +6,7 @@ This GitHub project is for the rebuttal of CVPR-17772. Due to space limitations,
 
 We conducted experiments on the <span style="font-size:1.5em; font-weight:bold;">**Yama dataset**</span> using the SIFT algorithm to detect keypoints. <span style="font-size:1.5em; font-weight:bold;">**1223**</span> keypoints were detected in the reference image and <span style="font-size:1.5em; font-weight:bold;">**1374**</span> in the sensed image. The encoder was pre-trained for <span style="font-size:1.5em; font-weight:bold;">**50 epochs**</span>, followed by training the <span style="font-size:1.5em; font-weight:bold;">**R-domain**</span> and <span style="font-size:1.5em; font-weight:bold;">**S-domain**</span> classification heads for an additional <span style="font-size:1.5em; font-weight:bold;">**50 epochs**</span>. We removed the reject module, with <span style="font-size:1.5em; font-weight:bold;">**cross-domain estimation every 5 epochs**</span>. The following registration results were based on matches approved by both branches. We present the results from the <span style="font-size:1.5em; font-weight:bold;">**10th cross-domain estimation**</span>. The detailed experimental results are presented in the table below.
 
-![](tables/rejection_module.png)
+![](tables/reject_module.png)
 #### The visual results without the reject module and without post-processing.
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_without_post_and_reject.png)
@@ -104,7 +104,7 @@ To further demonstrate the accuracy difference between our method and the compar
 
 # Comparisons on Other Benchmarks
 The specific experimental results are shown in the table below.
-![](tables/otherbenchmark_table.png)
+![](tables/other_benchmark.png)
 ### DALF
 ![](Comparisons%20on%20Other%20Benchmarks/DALF/optical_DAlF.png)
 
