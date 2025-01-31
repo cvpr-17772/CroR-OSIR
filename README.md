@@ -10,7 +10,7 @@ We conducted experiments on the <span style="font-size:1.5em; font-weight:bold;"
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_without_post_and_reject.png)
 
-As shown in the figure, the results without the rejection module and any post-processing contain a large number of **redundant point pairs**, which lead to a decrease in matching accuracy. 
+As shown in the above figure, the results without the rejection module and any post-processing contain a large number of **redundant point pairs**, which lead to a decrease in matching accuracy. 
 
 Then, we performed **post-processing** to remove erroneous match pairs and visualized the results after eliminating the incorrect matches.
 
@@ -25,16 +25,22 @@ Then, we compared this result with the one using only the rejection module (with
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_withreject_withoutpost.png)
 
-As shown, the rejection module effectively removes incorrect matchings and redundant points, achieving better registration accuracy without post-processing.
+As shown above, the rejection module effectively removes incorrect matchings and redundant points, achieving better registration accuracy without post-processing.
 ### Visualization On The YellowR1 Dataset
+
+On the **YellowR1** dataset, we detected **1339** keypoints in the reference image and **1201** keypoints in the target image using the **SIFT** algorithm. Other settings were the same as those for the **Yama** dataset. First, we present the results without the rejection module and without post-processing.
+
 #### The visual results without the rejection module and without post-processing.
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20YellowR1%20Dataset/yellowa_reject_ablation_withoutreject_withoutpost.png)
+
+Then, we performed post-processing and present the visualized results below.
 
 #### The visual results without the rejection module and with post-processing.
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20YellowR1%20Dataset/yellowa_reject_ablation_withoutreject_withpost.png)
 
+Then, we present the results using only the rejection module (rejection threshold = **0.95**).
 #### The visual results with the rejection module and without post-processing.
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20YellowR1%20Dataset/yellowa_reject_ablation_withreject_withoutpost.png)
