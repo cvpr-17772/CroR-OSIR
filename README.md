@@ -16,34 +16,39 @@ First, we present the results without the reject module and without post-process
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20YellowR1%20Dataset/yellowa_reject_ablation_withoutreject_withoutpost.png)
 
-Then, we performed post-processing and present the visualized results below.
-
-#### The visual results without the reject module and with post-processing.
-
-![](Rejection%20Mechanism/Visualization%20On%20The%20YellowR1%20Dataset/yellowa_reject_ablation_withoutreject_withpost.png)
-
-Then, we present the results using only the reject module (rejection threshold = **0.95**).
-#### The visual results with the reject module and without post-processing.
-
-![](Rejection%20Mechanism/Visualization%20On%20The%20YellowR1%20Dataset/yellowa_reject_ablation_withreject_withoutpost.png)
-
-### Visualization On The Yama Dataset
-
-#### The visual results without the reject module and without post-processing.
-
-![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_without_post_and_reject.png)
-
 As shown in the above figure, the results without the reject module and any post-processing contain a large number of **redundant point pairs**, which lead to a decrease in matching accuracy. 
 
 Then, we performed **post-processing** to remove erroneous match pairs and visualized the results after eliminating the incorrect matches.
 
 #### The visual results without the reject module and with post-processing.
 
-![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_withpost_without_reject.png)
+![](Rejection%20Mechanism/Visualization%20On%20The%20YellowR1%20Dataset/yellowa_reject_ablation_withoutreject_withpost.png)
+
 After applying **RANSAC** for post-processing, incorrect and some redundant point pairs are removed. However, remaining redundant points with insufficient matching quality limit further improvements in registration accuracy.
 
-Then, we compared this result with the one using only the reject module (with a rejection threshold of **0.95**). The results using only the rejection module are shown in the figure below.
+Then, we compared this result with the one using only the reject module (with a rejection threshold of **0.95**). The results using only the reject module are shown in the figure below.
 
+#### The visual results with the reject module and without post-processing.
+
+![](Rejection%20Mechanism/Visualization%20On%20The%20YellowR1%20Dataset/yellowa_reject_ablation_withreject_withoutpost.png)
+
+As shown above, the reject module effectively removes incorrect matchings and redundant points, achieving better registration accuracy without post-processing.
+### Visualization On The Yama Dataset
+
+First, we present the results without the reject module and without post-processing.
+
+#### The visual results without the reject module and without post-processing.
+
+![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_without_post_and_reject.png)
+
+Then, we performed post-processing and present the visualized results below.
+
+#### The visual results without the reject module and with post-processing.
+
+![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_withpost_without_reject.png)
+
+
+Then, we present the results using only the reject module (rejection threshold = **0.95**).
 #### The visual results with the reject module and without post-processing.
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_withreject_withoutpost.png)
