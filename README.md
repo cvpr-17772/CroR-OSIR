@@ -103,7 +103,8 @@ To further demonstrate the accuracy difference between our method and the compar
 ![](Comparison%20Visualizations/Visualization%20results%20On%20The%20YellowR1%20Dataset/CBchartYellowR1_CroR-OSIR.png)
 
 # Comparisons on Other Benchmarks
-The specific experimental results are shown in the table below.
+We conducted experiments on the **"abstract"** image of the **HPatches-sequences-release** dataset. In the experiment, the **rejection threshold** is set to **0.99**, and initial keypoints are detected using **SIFT**. A total of **1451** keypoints are detected in the **reference image**, and **1489** keypoints in the **sensed image**. The remaining experimental settings were the same as described in **Section 4.1**.
+The detailed experimental results are shown in the table below.
 ![](tables/other_benckmark.png)
 ### DALF
 ![](Comparisons%20on%20Other%20Benchmarks/DALF/optical_DAlF.png)
