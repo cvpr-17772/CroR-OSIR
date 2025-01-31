@@ -36,7 +36,7 @@ As shown, the rejection module effectively removes incorrect matchings and redun
 
 #### SIFT
 
-![](visualation/CBchartYama_4_01.png)
+![](Comparison%20Visualizations/Visualization%20results%20On%20The%20Yama%20Dataset/CBchartYama_SIFT.png)
 
 #### SuperPoint
 
