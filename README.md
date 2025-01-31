@@ -1,6 +1,6 @@
 # CroR-OSIR: Cross-Rejective Open-Set SAR Image Registration
 # Introduction
-This GitHub project is for the rebuttal of CVPR-17772. Due to space limitations, we have uploaded some additional experimental visualization results here. Thank you for your careful review!
+This GitHub project is for the details of CVPR-17772. Due to space limitations, we have uploaded some additional experimental visualization results here. Thank you for your careful review!
 # Rejection Mechanism
 
 
