@@ -88,7 +88,7 @@ As shown, the rejection module effectively removes incorrect matchings and redun
 
 ### DALF
 ![](Comparisons%20on%20Other%20Benchmarks/DALF/optical_DAlF.png)
-Comparisons on Other Benchmarks
+
 ### XFeat
 ![](Comparisons%20on%20Other%20Benchmarks/XFeat/optical_XFeat.png)
 ### DBMDF
