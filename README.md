@@ -3,6 +3,9 @@
 This GitHub project is for the rebuttal of CVPR-17772. Due to space limitations, we have uploaded some additional experimental visualization results here. Thank you for your careful review!
 # Rejection Mechanism
 ### Visualization On The Yama Dataset
+
+We conducted experiments on the **Yama dataset** using the SIFT algorithm to detect keypoints. **1223** keypoints were detected in the reference image and **1374** in the sensed image. The encoder was pre-trained for **50 epochs**, followed by training the **R-domain** and **S-domain** classification heads for an additional **50 epochs**. A rejection threshold of **\(\lambda = 0.00\)** was used, with **cross-domain estimation every 5 epochs**. The following registration results were based on matches approved by both branches. We present the results from the **10th cross-domain estimation**.
+
 #### The visual results without the rejection module and without post-processing.
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_without_post_and_reject.png)
