@@ -62,27 +62,27 @@ As shown, the rejection module effectively removes incorrect matchings and redun
 
 #### SIFT
 
-![](visualation/CBchartYellowR1_4_01.png)
+![](Comparison%20Visualizations/Visualization%20results%20On%20The%20YellowR1%20Dataset/CBchartYellowR1_SIFT.png)
 
 #### SuperPoint
 
-![](visualation/CBchartYellowR1_4_02.png)
+![](Comparison%20Visualizations/Visualization%20results%20On%20The%20YellowR1%20Dataset/CBchartYellowR1_SuperPoint.png)
 
 #### DALF
 
-![](visualation/CBchartYellowR1_4_03.png)
+![](Comparison%20Visualizations/Visualization%20results%20On%20The%20YellowR1%20Dataset/CBchartYellowR1_DALF.png)
 
 #### XFeat
 
-![](visualation/CBchartYellowR1_4_04.png)
+![](Comparison%20Visualizations/Visualization%20results%20On%20The%20YellowR1%20Dataset/CBchartYellowR1_XFeat.png)
 
 #### DBMDF
 
-![](visualation/CBchartYellowR1_4_05.png)
+![](Comparison%20Visualizations/Visualization%20results%20On%20The%20YellowR1%20Dataset/CBchartYellowR1_DBMDF.png)
 
 #### CroR-OSIR
 
-![](visualation/CBchartYellowR1_4_06.png)
+![](Comparison%20Visualizations/Visualization%20results%20On%20The%20YellowR1%20Dataset/CBchartYellowR1_CroR-OSIR.png)
 
 # Comparisons on Other Benchmarks
 
