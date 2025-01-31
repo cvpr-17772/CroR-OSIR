@@ -10,11 +10,17 @@ We conducted experiments on the <span style="font-size:1.5em; font-weight:bold;"
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_without_post_and_reject.png)
 
-As shown in the figure, the results without the rejection module and any post-processing contain incorrect matchings and a large number of redundant point pairs, which lead to a decrease in matching accuracy.
+As shown in the figure, the results without the rejection module and any post-processing contain a large number of **redundant point pairs**, which lead to a decrease in matching accuracy. 
+
+Then, we performed **post-processing** to remove erroneous match pairs and visualized the results after eliminating the incorrect matches.
+
 #### The visual results without the rejection module and with post-processing.
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_withpost_without_reject.png)
-After applying RANSAC for post-processing, incorrect and some redundant point pairs are removed. However, remaining redundant points with insufficient matching quality limit further improvements in registration accuracy.
+After applying **RANSAC** for post-processing, incorrect and some redundant point pairs are removed. However, remaining redundant points with insufficient matching quality limit further improvements in registration accuracy.
+
+Then, we compared this result with the one using only the rejection module (with a rejection threshold of **0.95**). The results using only the rejection module are shown in the figure below.
+
 #### The visual results with the rejection module and without post-processing.
 
 ![](Rejection%20Mechanism/Visualization%20On%20The%20Yama%20Dataset/yama_reject_ablation_withreject_withoutpost.png)
