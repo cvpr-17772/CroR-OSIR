@@ -87,13 +87,14 @@ As shown, the rejection module effectively removes incorrect matchings and redun
 # Comparisons on Other Benchmarks
 
 ### DALF
-![](visualation/optical_DAlF.png)
+![](Comparisons%20on%20Other%20Benchmarks/DALF/optical_DAlF.png)
+Comparisons on Other Benchmarks
 ### XFeat
-![](visualation/optical_XFeat.png)
+![](Comparisons%20on%20Other%20Benchmarks/XFeat/optical_XFeat.png)
 ### DBMDF
-![](visualation/optical_DBMDF.png)
+![](Comparisons%20on%20Other%20Benchmarks/DBMDF/optical_DBMDF.png)
 ### CroR-OSIR
-![](visualation/optical_CroR-OSIR.png)
+![](Comparisons%20on%20Other%20Benchmarks/CroR-OSIR/optical_CroR-OSIR.png)
 <!-- # Installation
 ## Make Data
 ## SupCon Pretraining
