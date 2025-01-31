@@ -8,6 +8,7 @@ This github project is the code for the paper 《Cross-Rejective Open-Set SAR Im
 #### The visual results without the rejection module and without post-processing.
 
 ![](visualation/yama_reject_ablation-2_01.png)
+![图片描述](图片URL)
 As shown in the figure, the results without the rejection module and any post-processing contain incorrect matchings and a large number of redundant point pairs, which lead to a decrease in matching accuracy.
 #### The visual results without the rejection module and with post-processing.
 
