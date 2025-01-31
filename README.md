@@ -104,7 +104,7 @@ To further demonstrate the accuracy difference between our method and the compar
 
 # Comparisons on Other Benchmarks
 The specific experimental results are shown in the table below.
-![](tables/otherbenchmark_table)
+![](tables/otherbenchmark_table.png)
 ### DALF
 ![](Comparisons%20on%20Other%20Benchmarks/DALF/optical_DAlF.png)
 
